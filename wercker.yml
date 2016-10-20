@@ -30,3 +30,9 @@ build:
         name: build pdf
         code: |
           npm run pdf
+  after-steps:
+    - wantedly/pretty-slack-notify:
+        team: $SLACK_TEAM
+        webhook_url: $SLACK_WEBHOOK_URL
+        channel: $SLACK_CHANNEL
+        username: $SLACK_USER_NAME
