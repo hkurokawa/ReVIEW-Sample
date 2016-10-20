@@ -1,0 +1,14 @@
+*.html
+!_cover.html
+*.txt
+*.xml
+*.tex
+
+*-pdf/
+ReVIEW-Sample*/
+webroot/
+
+*.pdf
+*.epub
+
+*.css
