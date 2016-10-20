@@ -31,8 +31,8 @@ build:
         code: |
           npm run pdf
   after-steps:
-    - iansmith9876/pretty-slack-notify
+    - iansmith9876/pretty-slack-notify:
         team: $SLACK_TEAM
-       token: $SLACK_API_TOKEN
+        token: $SLACK_API_TOKEN
         channel: $SLACK_CHANNEL
         username: $SLACK_USER_NAME
